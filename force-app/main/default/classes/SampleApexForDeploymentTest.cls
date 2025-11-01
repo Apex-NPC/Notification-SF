@@ -11,6 +11,7 @@ public with sharing class SampleApexForDeploymentTest {
         insert acc;
         
         System.Assert.areEqual(acc.Name, 'Test Account');
+        // trigger validate workflow
         Test.stopTest();
         
     }
