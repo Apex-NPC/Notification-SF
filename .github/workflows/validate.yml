@@ -1,9 +1,11 @@
 name: Validate pull request
 
 on:
+  push:
+    paths:
+      - 'force-app/**'
+
   pull_request:
-    branches:
-      - main
     types: [opened, synchronize]
     paths:
       - 'force-app/**'
