@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningBolt xmlns="http://soap.sforce.com/2006/04/metadata">
+    <category>Communications</category>
+    <lightningBoltFeatures>
+        <order>1</order>
+        <title>Nova Communication</title>
+    </lightningBoltFeatures>
+    <lightningBoltFeatures>
+        <order>2</order>
+        <title>Buy New Sim</title>
+    </lightningBoltFeatures>
+    <lightningBoltImages>
+        <image>image10</image>
+        <order>1</order>
+    </lightningBoltImages>
+    <lightningBoltImages>
+        <image>image6</image>
+        <order>2</order>
+    </lightningBoltImages>
+    <lightningBoltImages>
+        <image>image2</image>
+        <order>3</order>
+    </lightningBoltImages>
+    <lightningBoltItems>
+        <name>LoggerConsole</name>
+        <type>CustomApplication</type>
+    </lightningBoltItems>
+    <masterLabel>Nova Communication</masterLabel>
+    <publisher>Partner</publisher>
+    <summary>Welcome to Nova Communication</summary>
+</LightningBolt>
